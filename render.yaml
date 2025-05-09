@@ -1,7 +1,7 @@
 services:
   - type: web
     name: lau-backend
-    env: static
-    buildCommand: "./mvnw clean install"
+    env: java
+    buildCommand: "mvn clean install"
     startCommand: "java -jar target/lau-backend-0.0.1-SNAPSHOT.jar"
     plan: free
